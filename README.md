@@ -1,10 +1,10 @@
-# SWAT-MODFLOW model with PEST
+# APEX-MODFLOW model with PEST
 
 ## Get data and jupyter notebooks
 You essentially have 2 options:
 
 #### - Easy way
-- [Download the data zip file](https://github.com/spark-brc/2020_swatmf_pest/archive/master.zip)
+- [Download the data zip file](https://github.com/spark-brc/2022_APEXMF_PEST/archive/refs/heads/main.zip)
 - Unzip it to a prefered location.
 - After unzipping the archive file, unzip the "SWAT-MODFLOW" model zip file too.
 
@@ -20,25 +20,25 @@ You essentially have 2 options:
     - Clone the materials by executing the following in the git bash or terminal window:    
 
     ```bash
-    git clone https://github.com/spark-brc/2020_swatmf_pest.git
+    git clone https://github.com/spark-brc/2022_APEXMF_PEST.git
     ```  
         
 ## Installation
 To execute jupyter notebook, we need the Anaconda environment.
 
 #### 1. Anaconda Python:
-- If you don’t already have Anaconda Python installed, please install from this link:https://conda.io/miniconda.html  
-- Select the Python 3.7 version. 
+- If you don’t already have Anaconda Python installed, please install from this link:https://conda.io/miniconda.html (miniconda: anaconda light version) or https://repo.anaconda.com/archive/Anaconda3-2021.11-Windows-x86_64.exe (anaconda)
+- Select the Python 3.7 version (if available). 
     * Important - on Windows, choose option to install “for this user only” (Note, if you already have Anaconda installed, just skip to the next step which you will still need to run)
 
 #### 2. Set Environment and install libraries:
-- On Windows open the Anaconda Prompt from Start menu (on a Mac/Linux just open a terminal). And paste in this string and execute (this creates a python environment (sm_pest) that will work with our codes):
+- On Windows open the Anaconda Prompt from Start menu (on a Mac/Linux just open a terminal). And paste in this string and execute (this creates a python environment (apexmf_pest) that will work with our codes):
 ```bash
-conda create -n sm_pest python=3.7 jupyter notebook
+conda create -n apexmf_pest python=3.7 jupyter notebook
 ```
-- Activate the sm_pest environment
+- Activate the apexmf_pest environment
 ```bash
-conda activate sm_pest 
+conda activate apexmf_pest 
 ```
 - Finally, install libraries 
 ```bash
@@ -48,7 +48,7 @@ pip install numpy scipy xlrd pandas matplotlib ipywidgets pillow flopy pyemu
 Then change directory into the example folder or drive:  
 - Change directory (example)
 ```bash
-cd 2020_swatmf_pest-master 
+cd 2022_APEXMF_PEST-main 
 ```  
 - Launch jupyter notebook 
 ```bash
