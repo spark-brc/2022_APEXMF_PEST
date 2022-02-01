@@ -33,6 +33,12 @@ To execute jupyter notebook, we need the Anaconda environment.
 
 #### 2. Set Environment and install libraries:
 - On Windows open the Anaconda Prompt from Start menu (on a Mac/Linux just open a terminal). And paste in this string and execute (this creates a python environment (apexmf_pest) that will work with our codes):
+
+If you have conda already, let's update conda first
+```bash
+conda update conda
+```
+then
 ```bash
 conda create -n apexmf_pest python=3.7 jupyter notebook
 ```
